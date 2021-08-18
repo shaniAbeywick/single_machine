@@ -1,0 +1,43 @@
+.main_div{
+    display: flex;
+    margin-left:0px;
+    
+}
+
+.Title{
+    font-size: 15px;
+    margin-right:5px;
+    
+}
+.btnUp{
+    margin-right:5px;
+  
+}
+.btnDown{
+    margin-right:5px;
+    
+}
+h3{
+ text-align: center;
+ font-weight: normal;
+
+}
+#display{
+    color: gray;
+    font-weight: normal;
+}
+
+.center_div{
+    width:50px;
+    height: 30px;
+    background-color:rgb(26, 71, 104);
+    box-shadow: 5px 4px 24px -6px rgba(0,0,0,0.49);
+    border-radius: 5px;
+    margin-right:5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn_div{
+    display: flex;
+}

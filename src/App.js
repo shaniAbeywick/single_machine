@@ -1,24 +1,52 @@
-import Sidebar from "./components/sidebar/sidebar"
+import Sidebar from "./components/sidebar/Sidebar"
+import Controller from "./components/controller_sidebar/Controller"
 import Topbar from "./components/topbar/Topbar"
 
 import "./app.css"
 import Home  from  "./pages/home/Home"
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+  
+} from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="AppX">
+    <Router>
+       <div className="AppX">
        <Topbar/>
        <div className="container">
-         <Sidebar/>
+        <Switch>
+        <Route exact path= '/'component={Sidebar} / >
+       
+        <Route path='/controller' component={Controller} />
+      
         
-         <Home/>
-
+           
+          
+        </Switch>
+        <Home/>
+          
          
-        
+           
+       
+               
 
-       </div>
+    
+           
+         
+             
+          
+          
+        </div>
     </div>
+    </Router>
+    
+   
   );
 }
 

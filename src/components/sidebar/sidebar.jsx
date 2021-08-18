@@ -1,8 +1,5 @@
-import React from 'react';
-import  MachineInfo from "../machineInfo/MachineInfo";
-
 import "./sidebar.css"
-
+import  MachineInfo from "../machineInfo/MachineInfo";
 
 export default function Sidebar() {
     return (
@@ -14,7 +11,7 @@ export default function Sidebar() {
                 
 
                 <h3 className="sidebarTitle"></h3>
-                  <ul className="sidebarList">
+                 <ul className="sidebarList">
                     <li className="sidebarListItem ">
                       Shift :Day  
                     </li>
