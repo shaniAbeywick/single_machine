@@ -2,6 +2,8 @@ import "./controller.css"
 import "../sidebar/sidebar.css"
 import "../machineInfo/machineInfo.css"
 import profile from "../../images/operator/operator.jpg";
+import temp from "../../images/temp.png";
+import humidity from "../../images/humid.png";
 import Switch from '@material-ui/core/Switch';
 import Button from '@material-ui/core/Button';
 import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
@@ -45,6 +47,14 @@ export default function Controller() {
                     </div>
                 </div>  
                
+            </div>
+
+            <div className="alert">
+              <span><img src={temp} alt="temperature" className="temp" /></span>
+              <span className="tempRate"> <h4>30</h4></span>
+
+              <span><img src={humidity} alt="humidity" className="humid" /></span> 
+              <span className="humidRate"> <h4>80%</h4></span> 
             </div>
         </div>    
         

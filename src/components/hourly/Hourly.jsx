@@ -1,8 +1,11 @@
-import React from 'react'
+import  "./hourly.css" 
+
 
 export default function Hourly() {
     return (
-        <div>
+        <div className="hourly">
+            <h2 className="title">Hourly</h2>
+
             
             
         </div>

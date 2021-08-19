@@ -1,7 +1,7 @@
 .sidebar {
     flex: 1;
     height: calc(100vh - 50px);
-    background-color: rgb(13, 10, 34);
+    background-color: rgb(199, 102, 38);
     position: sticky;
     top: 50px;
   }
@@ -25,4 +25,18 @@
  }
  .sidebarListItem.active, .sidebarListItem:hover{
    background-color: rgb(26, 71, 104);
+ }
+ .alert{
+   display: flex;
+   margin-top: 100px;
+   margin-left: 9px;
+ }
+ .tempRate{
+   margin-top: 10px;
+   margin-right: 80px;
+   
+ }
+ .humidRate{
+  margin-top:15px;
+  margin-left: 0;
  }

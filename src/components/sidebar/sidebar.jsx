@@ -1,5 +1,7 @@
 import "./sidebar.css"
 import  MachineInfo from "../machineInfo/MachineInfo";
+import temp from "../../images/temp.png";
+import humidity from "../../images/humid.png";
 
 export default function Sidebar() {
     return (
@@ -47,6 +49,13 @@ export default function Sidebar() {
 
                 </ul>
                 </div>
+            </div>
+            <div className="alert">
+              <span><img src={temp} alt="temperature" className="temp" /></span>
+              <span className="tempRate"> <h4>30</h4></span>
+
+              <span><img src={humidity} alt="humidity" className="humid" /></span> 
+              <span className="humidRate"> <h4>80%</h4></span> 
             </div>
             
             
