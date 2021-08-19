@@ -7,6 +7,7 @@
 .Title{
     font-size: 15px;
     margin-right:5px;
+    margin-top: 16px;
     
 }
 .btnUp{
@@ -23,14 +24,15 @@ h3{
 
 }
 #display{
-    color: gray;
+    color: rgb(255, 255, 255);
     font-weight: normal;
+    margin-top: 16px;
 }
 
 .center_div{
     width:50px;
-    height: 30px;
-    background-color:rgb(26, 71, 104);
+    height: 60px;
+    background-color:rgb(134, 57, 9);
     box-shadow: 5px 4px 24px -6px rgba(0,0,0,0.49);
     border-radius: 5px;
     margin-right:5px;
@@ -41,3 +43,8 @@ h3{
 .btn_div{
     display: flex;
 }
+.alert_controller{
+    display: flex;
+    margin-top: 390px;
+    margin-left: 9px;
+  }

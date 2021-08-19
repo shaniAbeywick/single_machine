@@ -6,8 +6,10 @@ import temp from "../../images/temp.png";
 import humidity from "../../images/humid.png";
 import Switch from '@material-ui/core/Switch';
 import Button from '@material-ui/core/Button';
-import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+
+
+import ArrowDropUpTwoToneIcon from '@material-ui/icons/ArrowDropUpTwoTone';
+import ArrowDropDownTwoToneIcon from '@material-ui/icons/ArrowDropDownTwoTone';
 
 
 
@@ -37,9 +39,11 @@ export default function Controller() {
                       <div className="center_div">
                           <h3 id="display">0</h3>
                       </div>
+                      <div className="btn">
+                      <span className="btnUp"><Button><ArrowDropUpTwoToneIcon/></Button></span>
+                      <span className="btnDown"><Button>< ArrowDropDownTwoToneIcon/></Button></span>
+                      </div>
                       
-                      <span className="btnUp"><Button  variant="outlined" size="small" color="primary" ><ArrowDropUpIcon/></Button></span>
-                      <span className="btnDown"><Button variant="outlined" size="small" color="primary" ><ArrowDropDownIcon/></Button></span>
                       
                       
                       
@@ -49,7 +53,7 @@ export default function Controller() {
                
             </div>
 
-            <div className="alert">
+            <div className="alert_controller">
               <span><img src={temp} alt="temperature" className="temp" /></span>
               <span className="tempRate"> <h4>30</h4></span>
 

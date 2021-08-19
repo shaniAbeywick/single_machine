@@ -17,11 +17,13 @@
     margin-bottom: 20px;
 }
 
-.rejectionCount ,.minorStoppages,.breakdown{
+.rejectionCount ,.minorStoppages{
     margin-left: 45%;
 }
 .breakdown{
+    margin-left: 200px;
     color: red;
+    
 }
 .playCircleOutIcon{
     margin-left: 150px;
